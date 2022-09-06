@@ -27,7 +27,7 @@ const HomeScreen = () => {
   return (
     <SafeAreaView className="bg-white pt-5 android:mt-5">
       {/* Header */}
-      <View className="flex-row pb-3 items-center mx-4 space-x-2">
+      <View className="flex-row pb-3 items-center mx-4 space-x-2 px-2">
         <Image
           source={{
             url: "https://links.papareact.com/wru",
@@ -43,7 +43,7 @@ const HomeScreen = () => {
         <UserIcon size={35} color="#00ccbb" />
       </View>
       {/* Search */}
-      <View className="flex-row items-center space-x-2 pb-2 mx-4">
+      <View className="flex-row items-center space-x-2 pb-2 mx-4 px-2">
         <View className="flex-row flex-1 items-center space-x-2 bg-gray-200 p-3">
           <MagnifyingGlassIcon color="gray" size={20} />
           <TextInput
